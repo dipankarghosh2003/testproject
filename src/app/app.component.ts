@@ -4,6 +4,8 @@ import { DragulaService } from 'ng2-dragula';
 
 
 declare const $: any;
+import * as $ from "jquery";
+import 'bootstrap/dist/js/bootstrap.bundle.js'; 
 import {UserserviceService} from './userservice.service';
 @Component({
   selector: 'app-root',
@@ -103,7 +105,7 @@ ngOnInit(){
     let [el, source] = args;
     // do something else
   }
-  private addUser(data){
+  public addUser(data){
   
   	var currJson=JSON.parse(data);
   
