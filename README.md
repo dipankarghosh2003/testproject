@@ -25,3 +25,25 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+Mapping
+Here I have create a mapping tab 
+where I have kept 2 container one is fetching data from my 
+https://my-json-server.typicode.com/dipankarghosh2003/dbtesing/users
+and other from
+https://jsonplaceholder.typicode.com/users/
+
+[I am able to fetch But POST is not working I am not able to update these on github json file.]
+
+After that i am able to drag data from one container to another and vice versa and map it to respective jsoon inside i
+
+Source
+--------
+Inside it I am able to show the logic used for doing this.
+
+Testing 
+------
+Here I have created a txtbox where I am adding data in JSON format and By pressing run Code I am able to add data to my json file which I 
+am showing in right tab.
+
+I have used bootstrap, Jquery and dragula to complete this task.
